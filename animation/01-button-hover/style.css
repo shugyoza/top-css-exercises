@@ -18,3 +18,26 @@ button {
   font-size: small;
   text-align: center;
 }
+
+button:hover {
+  font-size: x-large;
+  cursor: pointer
+}
+
+button {
+  transition-property: font-size;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: .25s;
+}
+
+/* solution */
+/*
+button:hover {
+  font-size: x-large;
+  cursor: pointer
+}
+
+button {
+  transition: font-size 1s ease-out .25s
+} */
